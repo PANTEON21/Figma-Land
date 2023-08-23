@@ -147,7 +147,8 @@ header
 }
 
 .feautures,
-.contents
+.contents,
+.gallery
 {
 	background-color: #181818;
 }
@@ -270,7 +271,6 @@ header
 
 .contents-blocks
 {
-	border: 1px solid blue;
 	margin-top: 54px;
 	display: flex;
 	align-items: center;
@@ -282,7 +282,9 @@ header
 	background-color: white;
 	width: 476px;
 	margin-right: 33px;
+	margin-bottom: 50px;
 	border-radius: 10px;
+	height: 620px;
 }
 
 .contents-blocks-item h4
@@ -309,9 +311,24 @@ header
 	margin-top: 30px;
 }
 
-.contents-blocks-item button
+.button-first
 {
 	margin-left: 170px;
+	margin-top: 67px;
+	background-color: #4452FE;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0.2px; 
+	color: white;
+	padding: 10px 36px;
+	border: 0;
+}
+
+.button-second
+{
+	margin-left: 160px;
 	margin-top: 67px;
 	background-color: #4452FE;
 	font-size: 17px;
@@ -333,6 +350,38 @@ header
 .img-table
 {
 	position: relative;
-	bottom: 215px;
-	left: 100px;
+	bottom: 214px;
+	left: 82px;
+}
+
+.img-base
+{
+	position: relative;
+	bottom: 214px;
+	left: 35px;
+}
+
+.img-base-bottom
+{
+	position: relative;
+	bottom: 227px;
+	left: 35px;
+}
+
+.img-grip
+{
+	position: relative;
+	bottom: 236px;
+	right: 205px;
+}
+
+.img-boards
+{
+	margin-top: 3px;
+	margin-left: 18px;
+}
+
+.gallery
+{
+	border: 1px solid blue;
 }
